@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "axes": [
+    {
+      "name": "parameter_a",
+      "units": "1",
+      "coordinates": [0, 1]
+    },
+    {
+      "name": "parameter_b",
+      "units": "1",
+      "coordinates": [10, 20, 30]
+    }
+  ],
+  "fields": [
+    {
+      "name": "field_1",
+      "units": "1",
+      "shape": [2, 3],
+      "data_reference": "field_1.json"
+    }
+  ],
+  "provenance": [
+    "generated for testing"
+  ]
+}
