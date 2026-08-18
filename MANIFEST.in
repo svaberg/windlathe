@@ -1,0 +1,3 @@
+include environment.yml
+include test/data/invalid_missing_version.json
+include test/data/valid_minimal.json
