@@ -1,0 +1,11 @@
+name: windlathe
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - build
+  - pytest
+  - twine
+  - pip:
+      - -e .
