@@ -1,10 +1,11 @@
 name: windlathe
 channels:
   - conda-forge
+  - nodefaults
 dependencies:
-  - python
+  - python>=3.10
   - pip
-  - build
+  - python-build
   - pytest
   - twine
   - pip:
